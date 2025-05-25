@@ -8,12 +8,12 @@ Image below shows the database modeling
 
 ## Setup
 
-1. Baixe o repositório `git clone git@github.com:mr4torr/saas-auth.git`;
-2. Faça uma copia do arquivo `.env.example` e coloque-o como `.env`;
-3. Crie um arquivo docker-compose.yml, esse arquivo serve para rodar o banco de dados.
-4. Rode `docker compose up -d` e depois rode `./mvnw spring-boot:run`
-5. Acesse `http://localhost:8080/swagger-ui.html` para visualizar a documentação da API. 
-
+1. Download the repository `git clone git@github.com:mr4torr/saas-auth.git`;
+2. Make a copy of the `.env.example` file and place it as `.env`;
+3. Create a docker-compose.yml file, this file is used to run the database.
+4. Run `docker compose up -d` and then run `./mvnw spring-boot:run`
+5. Access `http://localhost:8080/swagger-ui.html` to view the API documentation.
+ 
 ```yml
 version: '3.8'
 services:
