@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.UUID;
 
 public class TokenConfirmationEmail implements TokenPayloadContract {
-
     private final UUID id;
 
     public TokenConfirmationEmail(UUID id) {

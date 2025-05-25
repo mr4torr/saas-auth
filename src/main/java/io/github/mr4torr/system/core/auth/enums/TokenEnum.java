@@ -6,16 +6,6 @@ public enum TokenEnum {
     CONFIRMATION,
     AUTHORIZATION;
 
-//    private final String value;
-//
-//    public String toString() {
-//        return value;
-//    }
-//
-//    TokenEnum(String value) {
-//        this.value = value;
-//    }
-
     public static TokenEnum _default() {
         return AUTHORIZATION;
     }

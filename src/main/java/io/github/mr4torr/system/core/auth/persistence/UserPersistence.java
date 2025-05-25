@@ -8,7 +8,9 @@ import java.util.UUID;
 
 public interface UserPersistence {
         User create(User user);
+
         Boolean emailAlreadyExists(Email email);
+
         Boolean remove(UUID userId);
 
         Optional<User> findByEmail(Email email);

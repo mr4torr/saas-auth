@@ -4,16 +4,17 @@ import org.mindrot.jbcrypt.BCrypt;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public record Password(String password) {
     public static final int PASSWORD_LENGTH = 8;
 
-    public Password {
+//    public Password {
 //        Objects.requireNonNull(password, "null");
 //        if (!isValid()) {
 //            throw new IllegalArgumentException(String.join(";", errors()));
 //        }
-    }
+//    }
 
     public boolean check(String hash) {
         return BCrypt.checkpw(password, hash);

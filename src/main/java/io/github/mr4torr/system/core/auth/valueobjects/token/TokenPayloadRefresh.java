@@ -13,7 +13,6 @@ public class TokenPayloadRefresh implements TokenPayloadContract {
     public TokenPayloadRefresh(String id, String sessionId) {
         this.id = id;
         this.sessionId = sessionId;
-
     }
 
     public Map<String, String> toArray() {
