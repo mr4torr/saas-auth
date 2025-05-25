@@ -1,0 +1,3 @@
+-- V20250500000__init.sql
+
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";

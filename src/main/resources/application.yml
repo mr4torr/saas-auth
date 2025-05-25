@@ -1,0 +1,24 @@
+spring:
+    application:
+      name: system
+
+    devtools:
+      restart:
+        enabled: true
+      livereload:
+        enabled: true
+
+    jpa:
+      show-sql: true
+
+    datasource:
+      url: jdbc:postgresql://localhost:5432/saas
+      username: postgres
+      password: root
+      driver-class-name: org.postgresql.Driver
+
+    flyway:
+      enabled: true
+      locations: classpath:db/postgresql
+      baseline-on-migrate: true
+
