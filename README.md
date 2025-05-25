@@ -68,7 +68,8 @@ This repository is still a work-in-progress. Here's the current progress:
 2. Make a copy of the `.env.example` file and place it as `.env`;
 3. Create a docker-compose.yml file, this file is used to run the database.
 4. Run `docker compose up -d` and then run `./mvnw spring-boot:run`
-5. Go to `http://localhost:8080` to access the API. -Access `http://localhost:8080/swagger-ui.html` to view the API documentation.-
+5. Go to `http://localhost:8080` to access the API. 
+    * Access `http://localhost:8080/swagger-ui.html` to view the API documentation.
 6. Go to `./doc/http` to see all mapped endpoints
  
 ```yml
