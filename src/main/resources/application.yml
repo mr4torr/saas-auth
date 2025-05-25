@@ -1,4 +1,6 @@
 spring:
+    config:
+      import: optional:file:.env[.properties]
     application:
       name: system
 
@@ -12,9 +14,9 @@ spring:
       show-sql: true
 
     datasource:
-      url: jdbc:postgresql://localhost:5432/saas
-      username: postgres
-      password: root
+      url: jdbc:${DATASOURCE_URL}
+      username: ${DATASOURCE_USER}
+      password: ${DATASOURCE_PASS}
       driver-class-name: org.postgresql.Driver
 
     flyway:
