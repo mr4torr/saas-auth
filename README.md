@@ -6,7 +6,7 @@ Image below shows the database modeling
 
 ![./assets/diagram-erb.png](doc/assets/diagram-erb.png)
 
-## Stacks
+## Technologies/library
 
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Security](https://spring.io/projects/spring-security)
