@@ -19,7 +19,7 @@ Image below shows the database modeling
 
 This repository is still a work-in-progress. Here's the current progress:
 
-- [-] Configuration
+- [ ] Configuration
   - [x] Data structure definition
   - [x] Migration structure definition
   - [x] Domain structure definition
@@ -27,7 +27,7 @@ This repository is still a work-in-progress. Here's the current progress:
   - [ ] Test structure definition
 - [ ] Resources
     - [ ] Users
-      - [X] Register
+      - [x] Register
       - [ ] Validate account
       - [ ] Reset password
       - [ ] Access blocking
@@ -48,7 +48,7 @@ This repository is still a work-in-progress. Here's the current progress:
       - [ ] User activation
       - [ ] Confirmation of new registration
       - [ ] Password reset
-    - Configuration
+    - [ ] Configuration
       - [ ] Email Settings
       - [ ] Files Storage
       - [ ] Backups
