@@ -1,0 +1,15 @@
+### Register
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+    "user": {
+        "name": "User",
+        "email": "user@example.com"
+    },
+    "credential": {
+        "password": "P@ssw0rD",
+        "passwordConfirmation": "P@ssw0rD"
+    }
+}

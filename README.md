@@ -4,7 +4,7 @@ Project developed with the objective of deepening knowledge in Java using the Sp
 
 Image below shows the database modeling
 
-![./assets/diagram-erb.png](./assets/diagram-erb.png)
+![./assets/diagram-erb.png](doc/assets/diagram-erb.png)
 
 ## Setup
 
