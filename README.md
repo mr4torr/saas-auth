@@ -6,6 +6,62 @@ Image below shows the database modeling
 
 ![./assets/diagram-erb.png](doc/assets/diagram-erb.png)
 
+## Stacks
+
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring Security](https://spring.io/projects/spring-security)
+- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Flyway](https://flywaydb.org/)
+- [Flyway Spring Boot](https://github.com/flyway/flyway-spring-boot)
+
+## Tasks
+
+This repository is still a work-in-progress. Here's the current progress:
+
+- [-] Configuration
+  - [x] Data structure definition
+  - [x] Migration structure definition
+  - [x] Domain structure definition
+  - [x] Infrastructure structure definition
+  - [ ] Test structure definition
+- [ ] Resources
+    - [ ] Users
+      - [X] Register
+      - [ ] Validate account
+      - [ ] Reset password
+      - [ ] Access blocking
+    - [ ] Authentication
+      - [ ] Token validation
+      - [ ] Token renewal
+      - [ ] Authentication session
+        - [ ] Session limiter active per user
+        - [ ] Invalidate active session
+        - [ ] List with all active sessions
+    - [ ] Authorization/Permissions
+      - [ ] Access group registration
+        - [ ] Register of permitted actions
+    - [ ] Organization
+      - [ ] Register
+      - [ ] Access blocking 
+    - [ ] Send emails
+      - [ ] User activation
+      - [ ] Confirmation of new registration
+      - [ ] Password reset
+    - Configuration
+      - [ ] Email Settings
+      - [ ] Files Storage
+      - [ ] Backups
+      - [ ] Logs
+      - [ ] Metrics
+      - [ ] Export/Import data
+- [ ] Event listeners
+  - [ ] Register organization
+  - [ ] ??? 
+- [ ] Deployment
+
+--- 
+
 ## Setup
 
 1. Download the repository `git clone git@github.com:mr4torr/saas-auth.git`;
